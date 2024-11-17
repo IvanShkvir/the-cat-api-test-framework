@@ -1,5 +1,5 @@
 # API Test Framework for The Cat API
-This repository provides a scalable, extendable, and flexible test framework for validating API responses from The Cat API. 
+This repository provides a scalable, extendable, and flexible test framework for validating API responses from The Cat API (<https://thecatapi.com>).
 The framework is built with Pytest, Requests and Allure.
 
 ## Features
@@ -31,13 +31,13 @@ cd <repository-folder>
 ```bash
 python -m venv .venv
 source .venv/bin/activate   # For Linux/Mac
-venv\Scripts\activate       # For Windows
+.venv\Scripts\activate      # For Windows
 ```
 3. **Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
-4. **Obtain API key from https://thecatapi.com.**  
+4. **Obtain API key from <https://thecatapi.com>.**  
    Press "GET YOUR API KEY", then "GET FREE ACCESS", 
    enter your email, provide very brief description about the application (can be anything), choose "Personal Project"
    and click "SUBMIT". In your email you will see the mail with API key that has to look like `live_m3Dpjeispqc...`.
@@ -45,8 +45,8 @@ pip install -r requirements.txt
    Set the API key obtained in previous step as an environment variable. You can do this in multiple ways 
    (create `.env` file,configure in IDE, use CLI, etc.). Here is how you can do this using CLI:
 ```bash
-export THE_CAT_API_KEY=<your-cat-api-key>    # Linux/Mac
-set THE_CAT_API_KEY=<your-cat-api-key>       # Windows   
+export THE_CAT_API_KEY=<your-cat-api-key>    # For Linux/Mac
+set THE_CAT_API_KEY=<your-cat-api-key>       # For Windows   
 ```
 6. **(Optional) Install Allure if you want to use Allure test reports**  
    To install Allure for your platform follow installation steps in the official [documentation](https://allurereport.org/docs/install/)
