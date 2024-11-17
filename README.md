@@ -48,6 +48,8 @@ pip install -r requirements.txt
 export THE_CAT_API_KEY=<your-cat-api-key>    # Linux/Mac
 set THE_CAT_API_KEY=<your-cat-api-key>       # Windows   
 ```
+6. **(Optional) Install Allure if you want to use Allure test reports**  
+   To install Allure for your platform follow installation steps in the official [documentation](https://allurereport.org/docs/install/)
 
 ---
 
@@ -76,11 +78,14 @@ pytest --html=<new-pytest-report-location> --alluredir=<new-allure-results-locat
 ```
 
 To see the Pytest report simply open the generated `html` file.  
+
 To see the Allure report you have to firstly transform it into `html` file. You can do this with following command:
 ```bash
 allure generate --single-file <path-to-allure-results> --clean -o <path-where-generate-html-report> 
 ```
 After execution, you will be able to open the report as a standalone `html` file.
+
+> Note: You have to have Allure installed on your system to be able to run the command above
 
 ---
 
