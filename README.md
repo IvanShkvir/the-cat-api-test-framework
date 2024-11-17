@@ -24,7 +24,7 @@ The framework is built with Pytest, Requests and Allure.
 
 1. **Clone the repository**  
 ```bash
-git clone https://github.com/IvanShkvir/test-task-unitedcode.git
+git clone https://github.com/IvanShkvir/the-cat-api-test-framework.git
 cd <repository-folder>
 ```
 2. **Create a Virtual Environment**
